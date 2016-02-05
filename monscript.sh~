@@ -4,7 +4,7 @@
 git config --global user.email "med.amine.sabri@gmail.com"
 git config --global user.name "aminesabri"
 
- git clone --quiet git@github.com:${GH_REF}  master > /dev/null
+ git clone --quiet https://${GH_TOKEN}@github.com/${GH_REF}  master > /dev/null
 
 
 
